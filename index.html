@@ -1,0 +1,28 @@
+<head>
+    <script type="module">
+        // import kaboom lib
+        import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
+
+        // initialize kaboom context
+        kaboom();
+
+        //load Sprites
+        loadSprite("flame", "sprites/flame.png")
+
+        add([
+            sprite("flame"),
+            pos(520, 520),
+            scale(1),
+            rotate(270)
+        ])
+
+        // add a piece of text at position (120, 80)
+        add([
+            text("hello 2"),
+            pos(120, 80),
+        ]);
+
+    </script>
+</head>
+
+<body></body>

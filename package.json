@@ -1,0 +1,15 @@
+{
+  "name": "46_-_learn_kaboom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.12",
+    "kaboom": "^2000.1.0"
+  }
+}
